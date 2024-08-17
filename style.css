@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&family=Protest+Strike&display=swap');
+
+
 body{
     background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#parent {
+    padding: 5vh;
+    background-color:hsl(0, 0%, 100%);
+    height: fit-content;
+    border-radius: 10px;
+    margin: 5vh;
+    box-shadow: 3vh 3vh;
+    border: 1px solid black;
+}
+#parent p{
+    font-family: Figtree;
+}
+
+#Learning{
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2vh;
+    font-weight: 800;
+}
+#title{
+    font-size: 20px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+
+}
+#paragraph{
+    font-size: 16px;
+    color: (0, 0%, 42%);
 }
