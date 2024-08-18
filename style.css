@@ -12,22 +12,30 @@ body{
 
 
 #parent {
-    padding: 5vh;
+    padding: 3vh;
     background-color:hsl(0, 0%, 100%);
     height: fit-content;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5vh;
     box-shadow: 3vh 3vh;
     border: 1px solid black;
+    width: 50vh;
 }
 #parent p{
     font-family: Figtree;
 }
+#img{
+    width: 50vh;
+    border-radius: 20px;
+}
 
 #Learning{
+    border-radius: 6px;
+    margin-top: 3vh;
+    margin-bottom: 0;
     background-color: hsl(47, 88%, 63%);
     display: inline-block;
-    border-radius: 4px;
+    
     padding: 2vh;
     font-weight: 800;
 }
@@ -39,5 +47,17 @@ body{
 }
 #paragraph{
     font-size: 16px;
-    color: (0, 0%, 42%);
+    color: hsl(0, 0%, 42%);
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+}
+#footer img{
+    
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    padding-right: 2vh;
 }
